@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds & artifacts
+dist/
+client/dist/
+build/
+
+# Environment variables & security credentials
+.env
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+
+# Local test & debug files (kept locally per user preference)
+server/test/
+test/
+*.test.js
+*.spec.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

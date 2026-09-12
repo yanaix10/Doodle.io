@@ -1,0 +1,17 @@
+{
+  "name": "skribbl-multiplayer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,magenta\" \"npm run server\" \"npm run client\"",
+    "server": "node --watch server/index.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix server",
+    "start": "node server/index.js",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
