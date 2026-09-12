@@ -214,6 +214,14 @@ io.on("connection", (socket) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "online",
+    message: "🎨 Skribbl Socket.IO Backend Server is live!",
+    activeRooms: roomManager.rooms.size
+  });
+});
+
 app.get("/health", (req, res) => {
   res.json({ status: "ok", activeRooms: roomManager.rooms.size });
 });
