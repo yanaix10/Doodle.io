@@ -1,4 +1,4 @@
-# Doodle.io — Real-Time Multiplayer Drawing & Guessing Game
+# Doodle.io - Real-Time Multiplayer Drawing & Guessing Game
 
 A real-time multiplayer drawing and guessing game inspired by Skribbl.io.
 
