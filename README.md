@@ -2,6 +2,8 @@
 
 A real-time multiplayer drawing and guessing game inspired by Skribbl.io.
 
+![Doodle.io Screenshot](screenshot.png)
+
 **Live**: https://doodle-io-lake.vercel.app/
 
 ---
